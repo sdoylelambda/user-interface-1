@@ -54,6 +54,11 @@ table {
 	background-size: 100% auto;
  }
 
+ .top {
+	 background-image: url("sound.jpg");
+	 background-size: 100% auto;
+ }sou
+
  html {
 	 box-sizing: border-box;
 	 font-size: 62.5%;
