@@ -72,12 +72,20 @@ html, body {
 	color: white;
 }
 
-h1 {
-	font-size: 5rem;
+h2 {
+	font-size: 7rem;
+	padding-top: 250px;
+	padding-bottom: 20px;
 }
 
-h2, h3, h4, h5 {
+h1 {
+	font-size: 4rem;
+}
+
+h3, h4, h5 {
 	font-size: 2rem;
+	padding-top: 20px;
+	padding-bottom: 60px;
 }
 
 .container {
@@ -147,4 +155,8 @@ main {
 	line-height: 18px;
 	flex-direction: column;
 	justify-content: center;
+  }
+
+  .mainContent {
+	margin: 200px;
   }
