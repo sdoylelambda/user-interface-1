@@ -57,7 +57,8 @@ table {
  .top {
 	 background-image: url("sound.jpg");
 	 background-size: 100% auto;
- }sou
+	 position:fixed;
+ }
 
  html {
 	 box-sizing: border-box;
@@ -119,12 +120,16 @@ header {
 	background-color: green;
 
 	align-items: baseline;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 a {
 	text-decoration: none;
 	color: white;
-	}
+}
 
 footer {
 	display: flex;
@@ -163,5 +168,5 @@ main {
   }
 
   .mainContent {
-	margin: 200px;
+	margin: 0px;
   }
