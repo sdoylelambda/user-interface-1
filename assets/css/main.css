@@ -80,26 +80,38 @@ h2, h3, h4, h5 {
 	font-size: 2rem;
 }
 
-container {
+.container {
 	margin: 0 auto;
 	font-size: 1.6rem;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 header {
 	margin: 20px 0;
- 	padding: 20px 0;
+ 	padding: 20px;
  	display: flex;
   	justify-content: space-between;
 }
 
 .top {
+	padding-left: 20px;
 	text-decoration: white;
 	text-decoration-style: none;
 	color: white;
 	font-size: 1.8rem;
 	word-spacing: 25px;
+	background-color: green;
+
+	align-items: baseline;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+	}
 
 footer {
 	display: flex;
@@ -112,16 +124,20 @@ footer {
 }
 
 button {
-   display: block;
+   
    background-color: green;
    color:white;
-   margin: 10px 30px 20px;
-   align-self: auto;
+   
+  
    cursor: pointer;
    width: 220px;
    height: 45px;
    font-size: 1.6rem;
    border-radius: 20px;
+
+   display: inline-block; 
+   
+   
   }
 
 main {
