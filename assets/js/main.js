@@ -22,4 +22,3 @@ class Panel{
   });
 
   console.log(panels);
-  
