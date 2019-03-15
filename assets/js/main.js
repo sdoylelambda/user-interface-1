@@ -21,4 +21,4 @@ class Panel{
     return new Panel(panel);
   });
 
-  console.log(panels);
+  

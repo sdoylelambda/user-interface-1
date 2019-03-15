@@ -49,10 +49,6 @@ table {
 
  /* code starts here */
 
- /* @customGreen: rgb(29, 191, 23);
- @SpotifyGreen: @customGreen;
- @font-stack: Arial, "sans-serif"; */
-
  html {
 	background-image: url("cover.jpg");
 	background-size: 100% auto;
@@ -233,12 +229,6 @@ main {
 	  }
 	}
 
-
-
-
-
-
-/* 
   .icon {
 	text-decoration: none;
 	border-bottom: none;
@@ -249,13 +239,7 @@ main {
 	font-style: normal;
 	font-weight: normal;
 	text-transform: none !important;
-} */
-
-
-
-
-
-
+} 
 
 /* Component Styles */
 
